@@ -36,7 +36,7 @@ with open('day4.in') as file:
 
         if all(x in r2 for x in r1) or all(x in r1 for x in r2):
             count += 1 
-        
+###------------------------------------PART2--------------------------------------------------------------------------------------------#
         for i in r2:
             if i in r1:
                 count2 += 1 
@@ -91,4 +91,3 @@ with open('day4.in') as file:
 
         
         
-
